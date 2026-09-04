@@ -1,0 +1,42 @@
+{
+  "trained_at": "2026-07-09T14:19:53.740277",
+  "dataset_rows": 10000,
+  "feature_count": 11,
+  "hustle_types": 113,
+  "model_type": "SVM_RBF_Kernel",
+  "hyperparameters": {
+    "C": 10.0,
+    "kernel": "rbf",
+    "gamma": "scale",
+    "class_weight": "balanced",
+    "probability": true,
+    "max_iter": 1000
+  },
+  "performance": {
+    "test_accuracy": 0.455,
+    "avg_confidence": 0.6246604192498628,
+    "train_samples": 8000,
+    "test_samples": 2000,
+    "support_vectors": {
+      "total": 3026,
+      "percentage": 37.824999999999996,
+      "per_class": {
+        "Growing": 1774,
+        "Struggling": 541,
+        "Successful": 711
+      }
+    }
+  },
+  "label_classes": [
+    "Growing",
+    "Struggling",
+    "Successful"
+  ],
+  "advantages": [
+    "Effective in high-dimensional spaces",
+    "Memory efficient (uses support vectors)",
+    "Versatile with different kernel functions",
+    "Good for cases where classes are well-separated"
+  ],
+  "notes": "SVM uses geometric approach (maximum margin classifier) unlike tree-based models"
+}

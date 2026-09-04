@@ -1,0 +1,45 @@
+feature,importance
+readiness_score,0.3235289114260889
+demand_enc,0.1932412281689998
+monthly_profit (RWF),0.12421519931177631
+online_sales_percentage (%),0.1232227060160224
+repeat_customers (%),0.09547375340269106
+customer_satisfaction (1-5),0.08674667321658316
+monthly_revenue (RWF),0.016375510000465453
+training_enc,0.012480058897333274
+business_plan_enc,0.010169100886366507
+internet_enc,0.006162712599389809
+advertising_budget (RWF),0.003741308011914524
+monthly_expenses (RWF),0.0015477218557963148
+marketing_score,0.001259678741262163
+revenue_per_hour,0.0005016844673703623
+social_media_enc,0.000251106944056879
+initial_capital (RWF),0.00021739095659206967
+profit_margin,0.00020291994832268267
+capital_roi,0.00017848717886557205
+break_even_time (months),0.0001279811011779063
+age,6.865666369687685e-05
+growth_rate (%),6.107448203486288e-05
+hours_per_week,4.758905793764508e-05
+gender_enc,4.551129078099993e-05
+category_Services,3.2677723040783156e-05
+mkt_access_enc,2.9940374551072986e-05
+edu_enc,1.5342887169200296e-05
+risk_enc,1.3105954983926013e-05
+competition_enc,1.0816516708597598e-05
+number_of_workers,1.0232667378245044e-05
+location_type_enc,6.034519937127459e-06
+employment_status_Student,3.388344284376394e-06
+employment_status_Employed,2.6869934019858527e-06
+employment_status_Self-employed,2.390535626738035e-06
+category_Transport,1.9055468649988399e-06
+seasonality_enc,1.2991857329482975e-06
+category_Food & Beverage,8.295823409940383e-07
+category_Trade,5.954785409056296e-07
+category_Craft & Manufacturing,3.895165368147834e-07
+scale_enc,3.7265024211191033e-07
+category_Digital,3.2607724755352146e-07
+category_Agriculture,3.14511731504301e-07
+capital_band,2.2997449270798032e-07
+gov_support_enc,1.3628764319309716e-07
+employment_status_Unemployed,2.0046018910127656e-08

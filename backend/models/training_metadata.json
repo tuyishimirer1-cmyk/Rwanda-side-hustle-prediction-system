@@ -1,0 +1,44 @@
+{
+  "training_date": "2026-07-16 15:41:48",
+  "dataset_size": 10000,
+  "train_size": 8000,
+  "test_size": 2000,
+  "features": [
+    "age",
+    "gender_encoded",
+    "education_level_encoded",
+    "location_type_encoded",
+    "hours_per_week",
+    "initial_capital (RWF)",
+    "monthly_profit (RWF)",
+    "readiness_score",
+    "profit_per_hour",
+    "roi_months",
+    "access_to_internet"
+  ],
+  "classes": [
+    "Growing",
+    "Struggling",
+    "Successful"
+  ],
+  "models": {
+    "Gradient Boosting": {
+      "accuracy": 0.7345,
+      "precision": 0.7315490128853124,
+      "recall": 0.7345,
+      "f1_score": 0.7280254684752852
+    },
+    "Random Forest": {
+      "accuracy": 0.764,
+      "precision": 0.769633595374072,
+      "recall": 0.764,
+      "f1_score": 0.7529016283255943
+    },
+    "SVM": {
+      "accuracy": 0.727,
+      "precision": 0.7266750184552362,
+      "recall": 0.727,
+      "f1_score": 0.7161576705963265
+    }
+  }
+}

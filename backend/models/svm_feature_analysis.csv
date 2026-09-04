@@ -1,0 +1,12 @@
+feature,approximate_importance
+age,0.09090909090909091
+hours_per_week,0.09090909090909091
+number_of_workers,0.09090909090909091
+readiness_score,0.09090909090909091
+advertising_budget (RWF),0.09090909090909091
+online_sales_percentage (%),0.09090909090909091
+monthly_expenses (RWF),0.09090909090909091
+growth_rate (%),0.09090909090909091
+break_even_time (months),0.09090909090909091
+customer_satisfaction (1-5),0.09090909090909091
+repeat_customers (%),0.09090909090909091

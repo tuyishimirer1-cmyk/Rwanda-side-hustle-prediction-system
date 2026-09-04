@@ -1,0 +1,18 @@
+{
+  "comparison_date": "2026-07-09T14:19:53.742278",
+  "models": {
+    "Gradient Boosting": 0,
+    "Random Forest": 0.723,
+    "XGBoost": 0.7195,
+    "SVM (RBF)": 0.455
+  },
+  "best_model": "Random Forest",
+  "best_accuracy": 0.723,
+  "recommendations": {
+    "for_speed": "XGBoost",
+    "for_accuracy": "Random Forest",
+    "for_interpretability": "Random Forest",
+    "for_complex_boundaries": "SVM (RBF)",
+    "for_geometric_separation": "SVM (RBF)"
+  }
+}

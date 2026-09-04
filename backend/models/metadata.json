@@ -1,0 +1,20 @@
+{
+  "trained_at": "2026-06-03T21:41:28.336236",
+  "dataset_rows": 10000,
+  "feature_count": 44,
+  "hustle_types": 113,
+  "model_type": "GradientBoostingClassifier_v3",
+  "key_insights": {
+    "top_predictor": "readiness_score (training+plan+internet)",
+    "capital_diff": "successful businesses have 2x more capital",
+    "hours_irrelevant": "hours/week barely differs between success levels"
+  },
+  "performance": {
+    "test_accuracy": 1.0
+  },
+  "label_classes": [
+    "Growing",
+    "Struggling",
+    "Successful"
+  ]
+}

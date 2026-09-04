@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-07-09T14:23:35.423062",
+  "dataset": {
+    "total_records": 10000,
+    "train_samples": 8000,
+    "test_samples": 2000,
+    "features_used": 11,
+    "classes": [
+      "Growing",
+      "Struggling",
+      "Successful"
+    ]
+  },
+  "models": {
+    "Random Forest": {
+      "accuracy": 0.723,
+      "precision": 0.7299183121726863,
+      "recall": 0.723,
+      "f1_score": 0.7249774042363374,
+      "avg_confidence": 0.6944934264794579
+    },
+    "SVM (RBF)": {
+      "accuracy": 0.455,
+      "precision": 0.5273769082790326,
+      "recall": 0.455,
+      "f1_score": 0.4329714017177173,
+      "avg_confidence": 0.6246604192498628
+    }
+  },
+  "best_model": {
+    "name": "Random Forest",
+    "accuracy": 0.723
+  },
+  "ensemble": {
+    "accuracy": null,
+    "f1_score": null
+  }
+}

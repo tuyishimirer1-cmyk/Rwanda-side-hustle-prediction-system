@@ -1,0 +1,12 @@
+feature,importance
+readiness_score,0.29554468203178
+monthly_expenses (RWF),0.15124561377611853
+online_sales_percentage (%),0.10020031482689383
+repeat_customers (%),0.09409702283600004
+customer_satisfaction (1-5),0.0870978212766597
+growth_rate (%),0.06289668283154164
+hours_per_week,0.04848032815106552
+age,0.04594876505705238
+break_even_time (months),0.041858491707985605
+number_of_workers,0.03956129375832502
+advertising_budget (RWF),0.033068983746577595

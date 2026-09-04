@@ -1,0 +1,45 @@
+feature
+age
+gender_enc
+edu_enc
+scale_enc
+initial_capital (RWF)
+hours_per_week
+number_of_workers
+training_enc
+business_plan_enc
+internet_enc
+readiness_score
+social_media_enc
+marketing_score
+advertising_budget (RWF)
+online_sales_percentage (%)
+location_type_enc
+mkt_access_enc
+gov_support_enc
+competition_enc
+demand_enc
+seasonality_enc
+risk_enc
+monthly_revenue (RWF)
+monthly_expenses (RWF)
+monthly_profit (RWF)
+growth_rate (%)
+break_even_time (months)
+customer_satisfaction (1-5)
+repeat_customers (%)
+profit_margin
+capital_roi
+revenue_per_hour
+capital_band
+category_Agriculture
+category_Craft & Manufacturing
+category_Digital
+category_Food & Beverage
+category_Services
+category_Trade
+category_Transport
+employment_status_Employed
+employment_status_Self-employed
+employment_status_Student
+employment_status_Unemployed
