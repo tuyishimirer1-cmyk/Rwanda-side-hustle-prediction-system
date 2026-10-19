@@ -56,13 +56,14 @@ source venv/bin/activate
 
 ### 3.3 Install Python dependencies
 
-```bash
-pip install flask flask-cors pandas numpy scikit-learn joblib python-dotenv africastalking reportlab
-```
-
-Or if there's a requirements.txt:
+**Easy Method (Recommended):**
 ```bash
 pip install -r requirements.txt
+```
+
+**Manual Method:**
+```bash
+pip install flask flask-cors pandas numpy scikit-learn joblib python-dotenv africastalking reportlab PyJWT
 ```
 
 ### 3.4 Create .env file (optional - for email/SMS features)
@@ -159,7 +160,7 @@ cd Rwanda-side-hustle-prediction-system
 cd backend
 python -m venv venv
 venv\Scripts\activate
-pip install flask flask-cors pandas numpy scikit-learn joblib python-dotenv africastalking reportlab
+pip install -r requirements.txt
 python app.py
 
 # In NEW terminal - Frontend setup
@@ -179,7 +180,7 @@ cd Rwanda-side-hustle-prediction-system
 cd backend
 python3 -m venv venv
 source venv/bin/activate
-pip install flask flask-cors pandas numpy scikit-learn joblib python-dotenv africastalking reportlab
+pip install -r requirements.txt
 python app.py
 
 # In NEW terminal - Frontend setup
@@ -204,7 +205,7 @@ echo [1/4] Setting up Backend...
 cd backend
 python -m venv venv
 call venv\Scripts\activate
-pip install flask flask-cors pandas numpy scikit-learn joblib python-dotenv africastalking reportlab
+pip install -r requirements.txt
 echo Backend setup complete!
 
 echo.
@@ -233,7 +234,7 @@ echo "[1/4] Setting up Backend..."
 cd backend
 python3 -m venv venv
 source venv/bin/activate
-pip install flask flask-cors pandas numpy scikit-learn joblib python-dotenv africastalking reportlab
+pip install -r requirements.txt
 echo "Backend setup complete!"
 
 echo ""
