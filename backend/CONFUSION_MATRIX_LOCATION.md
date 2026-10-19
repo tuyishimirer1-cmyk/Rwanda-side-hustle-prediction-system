@@ -25,8 +25,6 @@ This script:
 
 **Cell Number:** Approximately cell 17-18 (out of 25 total)
 
----
-
 ## What It Does
 
 The confusion matrix cell creates:
@@ -46,8 +44,6 @@ The confusion matrix cell creates:
    - Saves as: `confusion_matrices.png`
    - High resolution: 300 DPI
    - Publication-ready quality
-
----
 
 ## Code Snippet
 
@@ -85,8 +81,6 @@ plt.show()
 print('Confusion matrices saved: confusion_matrices.png')
 ```
 
----
-
 ## How to Run
 
 ### Step 1: Open Notebook
@@ -104,8 +98,6 @@ Run cells 1-17 to train models first, then:
 - Matrices display inline in notebook
 - Image saved as `confusion_matrices.png` in backend folder
 
----
-
 ## Output
 
 ### Visual Display:
@@ -120,8 +112,6 @@ Run cells 1-17 to train models first, then:
 - **Size:** ~250 KB
 - **Dimensions:** 1800 x 500 pixels
 - **Format:** PNG (transparent background)
-
----
 
 ## What Each Matrix Shows
 
@@ -154,8 +144,6 @@ This means:
 - 170 Growing misclassified as Successful
 - etc.
 
----
-
 ## Notebook Structure
 
 ```
@@ -179,8 +167,6 @@ Cell 17: Save Models
 Cell 18: Summary
 ```
 
----
-
 ## Quick Test
 
 To see if it works:
@@ -190,8 +176,6 @@ To see if it works:
 3. Click "Run" or press Shift+Enter
 4. You should see 3 heatmaps appear
 5. Check backend folder for `confusion_matrices.png`
-
----
 
 ## Troubleshooting
 
@@ -213,8 +197,6 @@ pip install seaborn matplotlib
 ### File not saving
 **Solution:** Check you're in the backend/ directory
 
----
-
 ## For Documentation
 
 Use this image in your capstone:
@@ -224,8 +206,6 @@ Use this image in your capstone:
 (Random Forest, Gradient Boosting, SVM) on 2,000 test samples. Random 
 Forest achieved the highest accuracy at 76%, with strong performance 
 in identifying Growing businesses."
-
----
 
 ## Current Status
 

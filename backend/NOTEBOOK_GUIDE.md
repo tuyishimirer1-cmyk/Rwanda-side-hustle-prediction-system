@@ -2,15 +2,11 @@
 
 Complete guide for using the Jupyter notebook to train ML models.
 
----
-
 ## Notebook: train_model.ipynb
 
 **Location:** `backend/train_model.ipynb`
 
 **Purpose:** Train and evaluate machine learning models with confusion matrix visualizations.
-
----
 
 ## What's Inside
 
@@ -62,8 +58,6 @@ Saves best model (Random Forest) to:
 - models/rf_scaler.pkl
 - models/rf_label_encoder.pkl
 
----
-
 ## How to Run
 
 ### Prerequisites:
@@ -90,8 +84,6 @@ jupyter lab train_model.ipynb
 2. Select Python kernel
 3. Run all cells
 
----
-
 ## Output Files
 
 After running the notebook:
@@ -104,8 +96,6 @@ After running the notebook:
 - `models/random_forest_model.pkl` (30 MB)
 - `models/rf_scaler.pkl` (3 KB)
 - `models/rf_label_encoder.pkl` (1 KB)
-
----
 
 ## Expected Results
 
@@ -122,8 +112,6 @@ Random Forest (highest accuracy)
 - Off-diagonal: Misclassifications
 - Color intensity: Number of predictions
 
----
-
 ## Features Used (11 total)
 
 1. age
@@ -138,15 +126,11 @@ Random Forest (highest accuracy)
 10. roi_months
 11. access_to_internet
 
----
-
 ## Target Classes
 
 1. Growing (58.5% of data)
 2. Struggling (13.4% of data)
 3. Successful (28.1% of data)
-
----
 
 ## Notebook Structure
 
@@ -157,8 +141,6 @@ Random Forest (highest accuracy)
 - Code cells: 15 (executable)
 
 **Estimated Run Time:** 2-3 minutes
-
----
 
 ## Tips
 
@@ -180,8 +162,6 @@ You can adjust:
 ### 5. Save Often
 Jupyter auto-saves, but save manually too (Ctrl+S).
 
----
-
 ## Troubleshooting
 
 ### Error: Module not found
@@ -201,8 +181,6 @@ pip install matplotlib seaborn
 ### Kernel not starting
 Restart Jupyter and try again.
 
----
-
 ## Clean Version
 
 This notebook is clean with:
@@ -210,8 +188,6 @@ This notebook is clean with:
 - No decorative lines
 - Professional formatting
 - Clear documentation
-
----
 
 ## For Capstone Document
 
@@ -234,8 +210,6 @@ cases. The model demonstrates strong performance in identifying Growing
 businesses (87.5% accuracy) but faces challenges with the minority 
 Struggling class (51.2% accuracy)."
 
----
-
 ## Notebook vs Python Script
 
 **Notebook Advantages:**
@@ -251,8 +225,6 @@ Struggling class (51.2% accuracy)."
 
 Both produce same results.
 
----
-
 ## Next Steps
 
 After training:
@@ -263,12 +235,8 @@ After training:
 4. Use model in app.py
 5. Insert charts in documentation
 
----
-
 **The notebook is ready to use and completely clean!**
 
 No emojis, no decorative lines, professional formatting throughout.
-
----
 
 Last Updated: July 16, 2026

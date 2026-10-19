@@ -5,8 +5,6 @@ the top 3 most profitable side businesses across all 23 Rwanda districts.
 
 **Dataset**: 29,000 real entrepreneur records · **Model**: GradientBoosting · **Accuracy**: ~78%
 
----
-
 ## Project Structure
 
 ```
@@ -31,8 +29,6 @@ rwanda-hustle/
      package.json
 ```
 
----
-
 ## Quick Start (3 steps)
 
 ### Step 1 — Train the model
@@ -56,8 +52,6 @@ Expected output:
 
 Saved to `models/`:  `model.pkl`, `label_encoders.pkl`, `feature_columns.pkl`,
 `hustle_stats.json`, `metadata.json`
-
----
 
 ### Step 2 — Start the API
 
@@ -100,8 +94,6 @@ curl -X POST http://localhost:5000/predict \
   }'
 ```
 
----
-
 ### Step 3 — Run the frontend
 
 ```bash
@@ -118,8 +110,6 @@ npm run dev
 # Opens at http://localhost:5173
 ```
 
----
-
 ## API Reference
 
 ### `GET /health`
@@ -134,8 +124,6 @@ Returns server status and model accuracy.
 }
 ```
 
----
-
 ### `GET /metadata`
 Returns dropdown options for the frontend.
 
@@ -149,15 +137,13 @@ Returns dropdown options for the frontend.
 }
 ```
 
----
-
 ### `POST /predict`
 Main prediction endpoint.
 
 **Request body**:
 
 | Field | Type | Required | Description |
-|-------|------|----------|-------------|
+|-------|------|----------||
 | `hustle_id` | string | No | Unique reference ID |
 | `name` | string | No | Full name |
 | `age` | int |  | Age (14–80) |
@@ -214,20 +200,16 @@ Main prediction endpoint.
 }
 ```
 
----
-
 ### `GET /hustles`
 Returns all 310 hustle statistics.
 
 Optional filter: `GET /hustles?category=Agriculture+%26+Farming`
 
----
-
 ## ML Model Details
 
 ### Target Classes
 | Class | Label | Score Range | % of Data |
-|-------|-------|-------------|-----------|
+|-------|-------|||
 | 0 | Low | < 7.5 | 27% |
 | 1 | Medium | 7.5 – 8.5 | 50% |
 | 2 | High | ≥ 8.5 | 23% |
@@ -259,8 +241,6 @@ Optional filter: `GET /hustles?category=Agriculture+%26+Farming`
 4. `previous_experience` (0.09)
 5. `network_size` (0.05)
 
----
-
 ## Deployment
 
 ### Backend (Render / Railway)
@@ -289,8 +269,6 @@ npm run build
 > **Security**: Never expose your Anthropic API key in the frontend.
 > Route all `/api/chat` requests through your backend.
 
----
-
 ## Chatbot Setup
 
 The AI advisor uses Claude. Add this proxy route in `app.py`:
@@ -317,8 +295,6 @@ Then in the frontend, replace the direct API call with:
 ```javascript
 const res = await fetch("/api/chat", { method: "POST", ... });
 ```
-
----
 
 ## License
 Built for Rwanda entrepreneurship. Dataset collected from real Rwandan entrepreneurs.

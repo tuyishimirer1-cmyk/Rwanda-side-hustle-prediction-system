@@ -1,22 +1,20 @@
-# 🔐 RWANDA HUSTLE - USER CREDENTIALS
+#  RWANDA HUSTLE - USER CREDENTIALS
 
 ## CURRENT USERS IN DATABASE
 
-### 👤 Test Entrepreneur Account
+###  Test Entrepreneur Account
 
 **Name:** roro  
 **Email/Phone:** tuyishimirer1@gmail.com  
 **Password:** `q3rA08Z58a`  
 **Role:** entrepreneur  
-**Status:** ✅ Verified  
+**Status:**  Verified  
 **Profile Complete:** Yes  
 **Language:** English  
 **Employment:** Unemployed  
 **Created:** July 9, 2026
 
----
-
-## 🚀 HOW TO LOGIN
+##  HOW TO LOGIN
 
 ### Step 1: Access the Application
 Open your browser and go to: **http://localhost:5175**
@@ -33,23 +31,19 @@ Open your browser and go to: **http://localhost:5175**
 - OR check your email inbox
 - Enter the OTP code to complete login
 
----
-
-## 📧 OTP CODES
+##  OTP CODES
 
 During testing, OTP codes are printed to the backend console:
 
 ```
-**************************************************
+
   VERIFICATION CODE FOR tuyishimirer1@gmail.com: 123456
-**************************************************
+
 ```
 
 Look for this in the terminal where you ran `python app.py`
 
----
-
-## 👨‍💼 ADMIN ACCOUNT (For System Management)
+## ‍ ADMIN ACCOUNT (For System Management)
 
 **Note:** Admin account needs to be created or updated in database.
 
@@ -77,9 +71,7 @@ print("Admin account created!")
 - Email: `admin@rwandahustle.rw`
 - Password: `admin123`
 
----
-
-## 🆕 CREATE NEW ACCOUNT
+##  CREATE NEW ACCOUNT
 
 ### Option 1: Through UI
 1. Go to http://localhost:5175
@@ -127,9 +119,7 @@ print(f"Password: {password}")
 
 Run: `python create_user.py`
 
----
-
-## 🔍 CHECK ALL USERS
+##  CHECK ALL USERS
 
 To see all users in database, run:
 
@@ -144,9 +134,7 @@ This will display:
 - Verification status
 - Profile completion status
 
----
-
-## 🔄 RESET PASSWORD
+##  RESET PASSWORD
 
 ### If you forgot the password:
 
@@ -181,9 +169,7 @@ This will display:
    print(f"New password: {new_password}")
    ```
 
----
-
-## ⚠️ IMPORTANT NOTES
+##  IMPORTANT NOTES
 
 1. **OTP Codes:** During development, OTP codes are printed to backend console. In production, they're only sent via email/SMS.
 
@@ -203,9 +189,7 @@ This will display:
    copy hustle.db hustle_backup.db
    ```
 
----
-
-## 🎯 QUICK TEST SCENARIO
+##  QUICK TEST SCENARIO
 
 ### Test the Complete Flow:
 
@@ -240,16 +224,12 @@ This will display:
    - Navigate to "History" tab
    - See all past predictions
 
----
-
-## 📞 SUPPORT
+##  SUPPORT
 
 **Developer:** TUYISHIMIRE Rosine  
 **Email:** tuyishimirer1@gmail.com  
 **Institution:** Rwanda Polytechnic - Huye College  
 **Project:** Capstone 2025-2026
-
----
 
 **Last Updated:** September 4, 2026  
 **Database:** hustle.db  

@@ -68,9 +68,9 @@ def send_verification_code(contact, code):
     print(f"[AUTH] Sending {code} to {contact} ({contact_type})")
     
     # ALWAYS print to console for development visibility
-    print(f"\n**************************************************")
+    print(f"\n")
     print(f"  VERIFICATION CODE FOR {contact}: {code}")
-    print(f"**************************************************\n")
+    print(f"\n")
 
     if contact_type == "email":
         try:

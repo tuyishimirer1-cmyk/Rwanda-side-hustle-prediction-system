@@ -1,6 +1,6 @@
 # Rwanda Side Hustle Success Prediction System
 
-## 🚀 Quick Start Guide
+##  Quick Start Guide
 
 ### Prerequisites
 - Python 3.9+
@@ -25,9 +25,7 @@ npm run dev
 ```
 Frontend will run on: http://localhost:5173 (or next available port)
 
----
-
-## 👤 USER CREDENTIALS
+##  USER CREDENTIALS
 
 ### Test Entrepreneur Account
 **Name:** RORO  
@@ -46,9 +44,7 @@ Frontend will run on: http://localhost:5173 (or next available port)
 **Role:** Administrator  
 **Access:** Full system management
 
----
-
-## 🔐 How to Login
+##  How to Login
 
 ### Option 1: Use Existing Account
 1. Go to http://localhost:5173
@@ -74,74 +70,66 @@ sqlite3 hustle.db
 SELECT name, email, phone, password, role FROM users;
 ```
 
----
-
-## 📊 System Features
+##  System Features
 
 ### For Entrepreneurs
-- ✅ Account registration with OTP verification
-- ✅ Profile setup (age, skills, location, capital)
-- ✅ Business prediction (Success/Growing/Struggling)
-- ✅ Top 3 side hustle recommendations
-- ✅ Automated business plan generation (PDF/DOCX)
-- ✅ Prediction history tracking
-- ✅ AI chatbot for business advice
-- ✅ Bilingual interface (English/Kinyarwanda)
-- ✅ Success stories and learning resources
+-  Account registration with OTP verification
+-  Profile setup (age, skills, location, capital)
+-  Business prediction (Success/Growing/Struggling)
+-  Top 3 side hustle recommendations
+-  Automated business plan generation (PDF/DOCX)
+-  Prediction history tracking
+-  AI chatbot for business advice
+-  Bilingual interface (English/Kinyarwanda)
+-  Success stories and learning resources
 
 ### For Administrators
-- ✅ User management dashboard
-- ✅ System statistics and analytics
-- ✅ Content management (stories, announcements)
-- ✅ Support request management
-- ✅ Database backup functionality
+-  User management dashboard
+-  System statistics and analytics
+-  Content management (stories, announcements)
+-  Support request management
+-  Database backup functionality
 
----
-
-## 🤖 Machine Learning Models
+##  Machine Learning Models
 
 The system uses three trained models:
 
 | Model | Accuracy | Status |
 |-------|----------|--------|
-| **Random Forest** | 75.95% | ✅ Primary (Deployed) |
-| **Gradient Boosting** | 74.50% | ⚡ Backup |
-| **SVM** | 72.70% | 📊 Comparison |
+| **Random Forest** | 75.95% |  Primary (Deployed) |
+| **Gradient Boosting** | 74.50% |  Backup |
+| **SVM** | 72.70% |  Comparison |
 
 **Dataset:** 10,000 Rwanda business records  
 **Features:** 113 distinct hustle types  
 **Categories:** Agriculture, Trade, Services, Crafts, Digital, Construction, Tourism
 
----
-
-## 📁 Project Structure
+##  Project Structure
 
 ```
 hustle4/
-├── backend/               # Flask API Server
-│   ├── app.py            # Main application
-│   ├── database.py       # Database operations
-│   ├── business_recommender.py  # ML recommendation engine
-│   ├── models/           # Trained ML models
-│   │   ├── final_hustle_model.pkl
-│   │   ├── final_scaler.pkl
-│   │   ├── final_label_encoder.pkl
-│   │   ├── gradient_boosting_model.pkl
-│   │   ├── random_forest_model.pkl
-│   │   └── svm_model.pkl
-│   ├── hustle.db         # SQLite database
-│   └── rwanda_side_hustle_10000.csv  # Training dataset
-│
-└── frontend/              # React Application
-    ├── src/
-    │   ├── App.jsx       # Main component
-    │   └── main.jsx      # Entry point
-    ├── public/
-    └── dist/             # Build output
+ backend/               # Flask API Server
+    app.py            # Main application
+    database.py       # Database operations
+    business_recommender.py  # ML recommendation engine
+    models/           # Trained ML models
+       final_hustle_model.pkl
+       final_scaler.pkl
+       final_label_encoder.pkl
+       gradient_boosting_model.pkl
+       random_forest_model.pkl
+       svm_model.pkl
+    hustle.db         # SQLite database
+    rwanda_side_hustle_10000.csv  # Training dataset
 
----
+ frontend/              # React Application
+     src/
+        App.jsx       # Main component
+        main.jsx      # Entry point
+     public/
+     dist/             # Build output
 
-## 🔧 API Endpoints
+##  API Endpoints
 
 ### Authentication
 - `POST /api/register` - Register new user
@@ -162,9 +150,7 @@ hustle4/
 - `POST /api/admin/stories` - Add success story
 - `DELETE /api/admin/user/<id>` - Delete user
 
----
-
-## 🗄️ Database Schema
+##  Database Schema
 
 ### Users Table
 ```sql
@@ -194,16 +180,12 @@ CREATE TABLE predictions (
 );
 ```
 
----
-
-## 🌍 Supported Districts
+##  Supported Districts
 
 All 30 districts of Rwanda:
 Bugesera, Burera, Gakenke, Gasabo, Gatsibo, Gicumbi, Gisagara, Huye, Kamonyi, Karongi, Kayonza, Kicukiro, Kirehe, Muhanga, Musanze, Ngoma, Ngororero, Nyabihu, Nyagatare, Nyamagabe, Nyamasheke, Nyanza, Nyarugenge, Nyaruguru, Rubavu, Ruhango, Rulindo, Rusizi, Rutsiro, Rwamagana
 
----
-
-## 📱 Contact & Support
+##  Contact & Support
 
 **Developer:** TUYISHIMIRE Rosine  
 **Registration:** 25RP20399  
@@ -211,15 +193,11 @@ Bugesera, Burera, Gakenke, Gasabo, Gatsibo, Gicumbi, Gisagara, Huye, Kamonyi, Ka
 **Email:** tuyishimirer1@gmail.com  
 **Year:** 2025-2026
 
----
-
-## 📄 License
+##  License
 
 This project is developed as a capstone project for Bachelor of Technology in Information Communication Technology.
 
----
-
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Backend won't start
 - Check Python version: `python --version` (needs 3.9+)
@@ -243,9 +221,7 @@ This project is developed as a capstone project for Bachelor of Technology in In
 - Verify EMAIL_USER and EMAIL_PASS in backend/.env
 - For SMS, verify Africa's Talking credentials
 
----
-
-## 🎯 For Evaluators
+##  For Evaluators
 
 ### To Test the System:
 1. Start backend: `cd backend && python app.py`
@@ -265,7 +241,5 @@ This project is developed as a capstone project for Bachelor of Technology in In
 - Education: University
 
 **Expected Result:** System recommends appropriate agricultural businesses with success predictions
-
----
 
 **Last Updated:** September 4, 2026

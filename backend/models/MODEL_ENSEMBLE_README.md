@@ -8,7 +8,7 @@ RwandaHustle now uses **THREE machine learning models** working together to prov
 2. **Random Forest Classifier** (NEW)
 3. **XGBoost Classifier** (NEW)
 
----
+
 
 ## Model Details
 
@@ -53,7 +53,7 @@ RwandaHustle now uses **THREE machine learning models** working together to prov
   5. monthly_expenses (5.88%)
 - **Use Cases**: Real-time predictions, large-scale deployments
 
----
+
 
 ## Training Results
 
@@ -75,7 +75,7 @@ Feature Count: 11 (from 45 available)
 
 *Note: 100% accuracy suggests potential overfitting on training data
 
----
+
 
 ## Feature Importance Consensus
 
@@ -102,7 +102,7 @@ Based on all three models, the most important factors for side hustle success ar
    - Competition level
    - Demand level
 
----
+
 
 ## How to Use the Models
 
@@ -158,7 +158,7 @@ from scipy.stats import mode
 final_prediction = mode(votes, axis=0)[0]
 ```
 
----
+
 
 ## Integration with Backend
 
@@ -194,7 +194,7 @@ def predict_with_ensemble(data):
     }
 ```
 
----
+
 
 ## Metadata Files
 
@@ -203,7 +203,7 @@ def predict_with_ensemble(data):
 - `xgb_metadata.json` - XGBoost model info
 - `model_comparison.json` - Side-by-side comparison
 
----
+
 
 ## Feature Importance Analysis
 
@@ -211,7 +211,7 @@ def predict_with_ensemble(data):
 - `rf_feature_importance.csv` - Random Forest feature ranking
 - `xgb_feature_importance.csv` - XGBoost feature ranking
 
----
+
 
 ## Recommendations
 
@@ -230,7 +230,7 @@ def predict_with_ensemble(data):
 - Compare performance metrics before deploying
 - Keep the best-performing model as primary
 
----
+
 
 ## Training Commands
 
@@ -247,7 +247,7 @@ python -c "import json; print(json.load(open('models/model_comparison.json', 'r'
 python -c "import pandas as pd; print(pd.read_csv('models/rf_feature_importance.csv').head(10))"
 ```
 
----
+
 
 ## Files Added
 
@@ -263,7 +263,7 @@ models/
  MODEL_ENSEMBLE_README.md         # This file
 ```
 
----
+
 
 ## Next Steps
 
@@ -273,7 +273,7 @@ models/
 4. ⏭ Optional: Create A/B testing framework
 5. ⏭ Optional: Set up periodic retraining pipeline
 
----
+
 
 ## Support
 

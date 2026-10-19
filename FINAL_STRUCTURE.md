@@ -2,58 +2,54 @@
 
 Project cleaned and optimized. Only essential files remain.
 
----
-
 ## PROJECT STRUCTURE
 
 ```
 hustle4/
-│
-├── .vscode/                          VS Code settings
-│   ├── extensions.json
-│   ├── launch.json
-│   ├── settings.json
-│   └── tasks.json
-│
-├── backend/                          Python Flask API
-│   ├── models/                       Trained ML models
-│   │   ├── gradient_boosting_model.pkl
-│   │   ├── random_forest_model.pkl
-│   │   ├── svm_model.pkl
-│   │   ├── gb_scaler.pkl
-│   │   └── gb_label_encoder.pkl
-│   │
-│   ├── .env                          Environment variables
-│   ├── app.py                        Main Flask application
-│   ├── database.py                   Database initialization
-│   ├── business_recommender.py       ML recommendation engine
-│   ├── check_tech_user.py            Create admin account
-│   ├── hustle.db                     SQLite database
-│   ├── README.md                     Backend documentation
-│   └── rwanda_side_hustle_10000.csv  Dataset (10,000 businesses)
-│
-├── frontend/                         React application
-│   ├── dist/                         Production build
-│   ├── node_modules/                 Dependencies (auto-generated)
-│   ├── public/                       Static files
-│   ├── src/                          Source code
-│   │   ├── assets/                   Images, icons
-│   │   ├── App.jsx                   Main React component
-│   │   └── main.jsx                  Entry point
-│   │
-│   ├── .env                          Frontend environment
-│   ├── .gitignore                    Git ignore rules
-│   ├── eslint.config.js              Linting configuration
-│   ├── index.html                    HTML template
-│   ├── package.json                  Dependencies
-│   ├── package-lock.json             Dependency lock
-│   └── vite.config.js                Build configuration
-│
-├── README.md                         Main documentation
-└── USER_CREDENTIALS.md               Login information
-```
 
----
+ .vscode/                          VS Code settings
+    extensions.json
+    launch.json
+    settings.json
+    tasks.json
+
+ backend/                          Python Flask API
+    models/                       Trained ML models
+       gradient_boosting_model.pkl
+       random_forest_model.pkl
+       svm_model.pkl
+       gb_scaler.pkl
+       gb_label_encoder.pkl
+   
+    .env                          Environment variables
+    app.py                        Main Flask application
+    database.py                   Database initialization
+    business_recommender.py       ML recommendation engine
+    check_tech_user.py            Create admin account
+    hustle.db                     SQLite database
+    README.md                     Backend documentation
+    rwanda_side_hustle_10000.csv  Dataset (10,000 businesses)
+
+ frontend/                         React application
+    dist/                         Production build
+    node_modules/                 Dependencies (auto-generated)
+    public/                       Static files
+    src/                          Source code
+       assets/                   Images, icons
+       App.jsx                   Main React component
+       main.jsx                  Entry point
+   
+    .env                          Frontend environment
+    .gitignore                    Git ignore rules
+    eslint.config.js              Linting configuration
+    index.html                    HTML template
+    package.json                  Dependencies
+    package-lock.json             Dependency lock
+    vite.config.js                Build configuration
+
+ README.md                         Main documentation
+ USER_CREDENTIALS.md               Login information
+```
 
 ## REMOVED FILES (60+ files deleted)
 
@@ -113,8 +109,6 @@ hustle4/
 - backend/node_modules/ (unused)
 - backend/scratch/ (development files)
 
----
-
 ## ESSENTIAL FILES KEPT
 
 ### Backend (7 core files):
@@ -142,8 +136,6 @@ Plus:
 - USER_CREDENTIALS.md (login info)
 - .vscode/ (VS Code settings)
 
----
-
 ## FILE COUNT
 
 **Before cleanup:** 150+ files
@@ -151,8 +143,6 @@ Plus:
 **After cleanup:** 30-40 essential files
 
 **Reduction:** ~70% fewer files
-
----
 
 ## DISK SPACE
 
@@ -165,8 +155,6 @@ Plus:
 - Frontend: ~150 MB (minimal changes)
 
 **Saved:** ~45 MB
-
----
 
 ## WHAT REMAINS
 
@@ -198,8 +186,6 @@ npm run dev
 - index.html
 - node_modules/
 
----
-
 ## ADMIN ACCOUNT CREATION
 
 Only one utility script kept:
@@ -210,8 +196,6 @@ python check_tech_user.py
 ```
 
 Creates support@rwandahustle.rw admin account.
-
----
 
 ## WHY FILES WERE REMOVED
 
@@ -233,25 +217,21 @@ Old database backups. Keep only hustle.db.
 ### Charts/Visualizations:
 Training outputs. Models are already trained.
 
----
-
 ## PROJECT SIZE COMPARISON
 
 ```
 BEFORE:
 hustle4/                    200 MB
-├── backend/                 50 MB
-│   ├── Unnecessary files    45 MB
-│   └── Essential files       5 MB
-└── frontend/               150 MB
+ backend/                 50 MB
+    Unnecessary files    45 MB
+    Essential files       5 MB
+ frontend/               150 MB
 
 AFTER:
 hustle4/                    155 MB
-├── backend/                  5 MB (clean)
-└── frontend/               150 MB (unchanged)
+ backend/                  5 MB (clean)
+ frontend/               150 MB (unchanged)
 ```
-
----
 
 ## TO ADD FILES BACK
 
@@ -265,8 +245,6 @@ Most removed files were:
 - Test scripts (can write new tests)
 - Documentation (consolidated in README)
 - Backups (database is intact)
-
----
 
 ## BENEFITS
 
@@ -290,8 +268,6 @@ Most removed files were:
    - Clean for deployment
    - Professional presentation
 
----
-
 ## RUNNING THE APPLICATION
 
 ### Backend:
@@ -314,8 +290,6 @@ cd backend
 python check_tech_user.py
 ```
 
----
-
 ## DOCUMENTATION
 
 All information consolidated in:
@@ -323,14 +297,10 @@ All information consolidated in:
 2. **USER_CREDENTIALS.md** (login info)
 3. **backend/README.md** (API documentation)
 
----
-
 **Project is now clean, minimal, and production-ready.**
 
 Total Files Removed: 60+  
 Total Space Saved: 45 MB  
 Structure: Professional and organized
-
----
 
 Last Updated: July 16, 2026
